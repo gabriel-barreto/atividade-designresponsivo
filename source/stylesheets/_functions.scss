@@ -1,0 +1,3 @@
+@function calc_col($col-number) {
+	@return percentage($col-number/$total-columns);
+}

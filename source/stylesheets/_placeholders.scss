@@ -1,0 +1,9 @@
+%col {
+	position: relative;
+	min-height: 1.5rem;
+	padding: 0 ($gutter-size/2);
+	width: 100%;
+	@media (max-width: 767px) {
+		padding: 0;
+	}
+}
